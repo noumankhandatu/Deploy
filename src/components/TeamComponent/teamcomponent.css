@@ -1,0 +1,153 @@
+.TeamComponent__UperText {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  --tw-text-opacity: 1;
+  color: rgba(251, 215, 37, var(--tw-text-opacity));
+  padding-bottom: 0;
+}
+.TeamComponent__BottomText {
+  --tw-text-opacity: 1;
+  letter-spacing: 1px;
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+.TeamComponent__Header {
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.TeamComponent__Cover {
+  padding: 80px 0;
+
+  overflow: hidden;
+  background: linear-gradient(
+      111.31deg,
+      #50204d 7.84%,
+      rgba(141, 28, 141, 0) 94.81%
+    ),
+    #8c2487;
+}
+.TeamComponent__EndingText {
+  text-align: center;
+  margin-top: 50px;
+}
+#CardComponent__InvisibleTag {
+  background-color: white;
+  opacity: 0;
+  width: 267px;
+  height: 30px;
+  top: 385.6rem;
+  position: absolute;
+}
+#CardComponent__InvisibleTag:hover {
+  background-color: white;
+  opacity: 0.7;
+  width: 267px;
+  cursor: pointer;
+  height: 30px;
+  top: 385.6rem;
+  position: absolute;
+}
+#CardDetail + #CardComponent__InvisibleTag:hover {
+  background-color: white;
+  opacity: 0.8;
+  width: 267px;
+  height: 30px;
+  top: 385.6rem;
+  position: absolute;
+}
+#CardDetail {
+  background-color: #331f32;
+  padding: 1px !important;
+  font-weight: 700;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 16px;
+  color: #fbd725;
+}
+#CardDetail:hover ~ #CardComponent__InvisibleTag {
+  display: none !important;
+}
+.CardPic {
+  width: 100%;
+  color: #891f85;
+  border-bottom-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  border: 1px solid orchid !important;
+  box-shadow: 0 0 15px rgb(216 98 212 / 53%);
+}
+.CardContainer {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.TeamComponent__CardsProps {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-rows: 1fr;
+  margin-left: 100px;
+  margin-right: 100px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+@media (max-width: 800px) {
+  .TeamComponent__CardsProps {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-rows: 1fr;
+    margin-left: 30px;
+    margin-right: 30px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .TeamComponent__Cover {
+    padding: 80px 0;
+
+    overflow: hidden;
+    background: linear-gradient(
+        111.31deg,
+        #50204d 7.84%,
+        rgba(141, 28, 141, 0) 94.81%
+      ),
+      #8c2487;
+  }
+  .TeamComponent__Header {
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+@media (max-width: 600px) {
+  .TeamComponent__CardsProps {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-rows: 1fr;
+    margin-left: 30px;
+    margin-right: 30px;
+    grid-template-columns: 1fr;
+  }
+
+  .TeamComponent__Cover {
+    padding: 80px 0;
+
+    overflow: hidden;
+    background: linear-gradient(
+        111.31deg,
+        #50204d 7.84%,
+        rgba(141, 28, 141, 0) 94.81%
+      ),
+      #8c2487;
+  }
+  .TeamComponent__Header {
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  #CardComponent__InvisibleTag {
+    display: none;
+  }
+}

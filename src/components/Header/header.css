@@ -1,0 +1,159 @@
+.header__lastFinsih {
+  display: flex;
+}
+.unit__role {
+  display: flex;
+  margin-left: 300px;
+}
+.header__small {
+  display: block;
+  line-height: 1;
+  font-weight: 300;
+  letter-spacing: 4px;
+  font-size: 12px;
+}
+.nav-title {
+  margin-left: 10px;
+}
+.header__slotxtext {
+  font-size: 24px;
+  font-weight: 800;
+  text-shadow: 0 0 7px orchid;
+}
+.image__logoSize {
+  width: 50px;
+  padding: 2px;
+
+  margin: 2px;
+  height: 40px;
+}
+.nav {
+  position: fixed !important;
+
+  padding: 10px 0 5px;
+  height: 50px;
+  display: flex;
+  opacity: 0.9;
+  justify-content: space-evenly;
+  width: 100%;
+  background: linear-gradient(
+      111.31deg,
+      #090a0b 7.84%,
+      rgba(31, 7, 82, 0) 94.81%
+    ),
+    #41153f;
+
+  position: relative;
+  transition: all 0.5s;
+  z-index: 997;
+
+  box-shadow: 0 2px 15px #891f85;
+}
+
+.nav > .nav-header {
+  display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 22px;
+
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  display: inline;
+  float: right;
+  font-size: 18px;
+}
+
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: #efefef;
+}
+
+.nav > .nav-links > a:hover {
+  background: linear-gradient(111.31deg, #41153f, rgba(31, 7, 82, 0) 94.81%),
+    #090a0b 7.84%;
+}
+
+.nav > #nav-check {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .unit__role {
+    display: block !important;
+    color: wheat;
+    margin: 0px !important;
+  }
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 39px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label:hover,
+  .nav #nav-check:checked ~ .nav-btn > label {
+    background: linear-gradient(111.31deg, #41153f, rgba(31, 7, 82, 0) 94.81%),
+      #090a0b 7.84%;
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background: linear-gradient(111.31deg, #41153f, rgba(31, 7, 82, 0) 94.81%),
+      #090a0b 7.84%;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 65px;
+    left: 0px;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+
+  .nav {
+    height: 50px;
+    display: flex;
+
+    justify-content: space-between;
+    width: 100%;
+    background: linear-gradient(111.31deg, #41153f, rgba(31, 7, 82, 0) 94.81%),
+      #090a0b 7.84%;
+
+    position: relative;
+    transition: all 0.5s;
+    z-index: 997;
+
+    box-shadow: 0 2px 15px #891f85;
+  }
+}

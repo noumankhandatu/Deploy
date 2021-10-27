@@ -1,0 +1,21 @@
+.HandleBlackSection__Lottery {
+  font-size: 48px;
+  line-height: 48px;
+  display: grid;
+  margin-right: 100px !important;
+  margin-left: 100px !important;
+  font-weight: 700;
+  margin: 30px !important;
+  text-align: center;
+  color: #fbd725;
+
+  text-shadow: 0 0 7px #fbd725;
+  margin: auto;
+}
+.HandleBlackSection__Styless {
+}
+.HandleBlackSection__Size {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}

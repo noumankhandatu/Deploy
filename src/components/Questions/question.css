@@ -1,0 +1,95 @@
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  border: none;
+  text-align: left;
+  color: white;
+  outline: none;
+  font-size: 18px;
+  margin: 10px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-color: #891f85;
+  background-color: rgba(30, 31, 37, 0.8);
+  box-shadow: 0 0 0 rgb(255 255 255 / 33%);
+  transition: 0.4s;
+  transition-property: all;
+  transition-duration: 1s;
+}
+.toggledLast {
+  font-size: 20px;
+  padding: 10px;
+  transition: 0.4s;
+  letter-spacing: 2px;
+}
+.CollectedQuestion__Sticked {
+  margin-left: 140px;
+  padding: 10px;
+  box-shadow: 0 0 6px rgb(255 255 255 / 33%);
+  background-color: rgba(30, 31, 37, 0.8);
+  margin-right: 140px;
+  transition: 0.4s;
+  transition: all 0.35s ease-in-out;
+}
+#questionMarkedColored {
+  color: orchid;
+  padding: 10px;
+}
+
+#AnchorTagFloat {
+  float: right;
+  padding: 10px;
+}
+
+.panelTwo {
+  padding: 30px;
+  font-size: 15px;
+  position: relative;
+  transition: all 0.35s ease-in-out;
+  transition: 1s;
+  letter-spacing: 2px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: rgba(30, 31, 37, 0.8);
+  color: white;
+  padding: 0 18px;
+  background-color: white;
+  border-color: #891f85;
+  background-color: rgba(30, 31, 37, 0.8);
+  transition: max-height 0.2s ease-out;
+}
+.Collection__EntireBox {
+  background: #1e1f25;
+  padding: 10px;
+
+  box-shadow: 0 2px 15px hsl(0deg 0% 100% / 18%);
+}
+.Frequency__Lottery {
+  font-size: 32px;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgba(251, 215, 37, var(--tw-text-opacity));
+  text-transform: uppercase;
+
+  padding-bottom: 0;
+}
+.Frequency__Texted {
+  font-size: 1.25rem;
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+.centeringDivOps {
+  margin-top: 50px;
+
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .CollectedQuestion__Sticked {
+    margin-left: 10px;
+    box-shadow: 0 0 6px rgb(255 255 255 / 33%);
+    background-color: rgba(30, 31, 37, 0.8);
+    margin-right: 10px;
+    transition: all 0.35s ease-in-out;
+  }
+}

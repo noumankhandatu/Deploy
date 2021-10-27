@@ -1,0 +1,109 @@
+.RoadMap__OuterDiv {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 30px;
+
+  margin-bottom: 20px;
+  padding-bottom: 0;
+}
+.RoadMap__ForCenteringDiv {
+  margin-top: 100px;
+  margin-bottom: 1000px;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.RoadMap__UperText {
+  font-weight: 100px;
+  letter-spacing: 2px;
+  --tw-text-opacity: 1;
+  color: rgba(251, 215, 37, var(--tw-text-opacity));
+}
+.RoadMap__LowerText {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-size: 16px;
+
+  line-height: 1.2;
+}
+.BlockAge {
+  margin-left: 10px;
+  border-radius: 2px;
+  background-color: white;
+}
+.RoadMap_logoSty {
+  display: flex;
+}
+.RoadMapLogo__IpFeildOne {
+  font-size: 18px;
+  outline: none;
+
+  text-align: center;
+  color: rgb(196, 193, 193);
+  width: 30px;
+  height: 30px;
+}
+#RoadMap__leftTriangle {
+  font-size: 20px;
+}
+.RoadMapLogo__IpFeildTwo {
+  background-color: orchid;
+  width: 35px;
+  color: white;
+  padding: 5px 10px;
+  border: 1px solid rgb(255, 255, 255);
+  box-shadow: 1px 3px 15px rgb(255 255 255 / 28%);
+  text-align: center;
+  outline: none;
+}
+.RoadMapCard__Text {
+  letter-spacing: 1px;
+  width: 350px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  padding: 10px;
+  overflow: hidden;
+
+  background-image: linear-gradient(100deg, #1e1f25, #1e1f25, #1e1f25);
+  box-shadow: 0 0 1px rgb(0 0 0 / 20%);
+  border: 1px solid #891f85;
+}
+
+@media (max-width: 600px) {
+  .RoadMap__ForCenteringDiv {
+    margin-top: 0 !important;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .RoadMapCard__Text {
+    letter-spacing: 1px;
+    margin: 10px;
+    width: auto;
+    text-align: center;
+    margin: 0px;
+    border-radius: 5px;
+    padding: 10px !important;
+    overflow: hidden;
+
+    background-image: linear-gradient(100deg, #1e1f25, #1e1f25, #1e1f25);
+    box-shadow: 0 0 1px rgb(0 0 0 / 20%);
+    border: 1px solid #891f85;
+  }
+  .RoadMap_logoSty {
+    text-align: center;
+    display: none;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .divVersace {
+    display: flex;
+    align-items: center;
+    display: none;
+    text-align: center;
+    justify-content: center;
+  }
+}

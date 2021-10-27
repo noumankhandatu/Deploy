@@ -1,0 +1,23 @@
+.textarea__style {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+
+  font-size: 16px;
+
+  line-height: 1.2;
+}
+.textarea__MintStyler {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 2px;
+
+  margin: 30px;
+
+  margin-bottom: 20px;
+  padding-bottom: 0;
+}
+.textarea__mintedHere {
+  font-weight: 100px;
+  --tw-text-opacity: 1;
+  color: rgba(251, 215, 37, var(--tw-text-opacity));
+}
